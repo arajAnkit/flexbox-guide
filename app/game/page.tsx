@@ -582,7 +582,7 @@ export default function FlexboxGame() {
     // Basic levels (1-10)
     if (level.id === 1) {
       return (
-        <div className="flex justify-between items-center h-full border border-dashed border-slate-300 dark:border-slate-700 rounded-lg p-4">
+        <div className="flex justify-center items-center h-full border border-dashed border-slate-300 dark:border-slate-700 rounded-lg p-4">
           <div className="w-16 h-16 bg-[#B0E0E6] rounded-md flex justify-center items-center">
             <p className="text-orange-500 font-semibold text-lg">1</p>
           </div>
